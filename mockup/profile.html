@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プロフィール - ポイント管理システム</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ポイント管理システム</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="login.html">ログイン</a></li>
+                <li><a href="points.html">ポイント付与</a></li>
+                <li><a href="ranking.html">ランキング</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="profile">
+            <h2>プロフィール</h2>
+            <div>
+                <label for="name">名前:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <label for="npub">npub:</label>
+                <input type="text" id="npub" name="npub">
+            </div>
+            <button>保存</button>
+
+            <h3>過去のログ</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>日時</th>
+                        <th>アクション</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2024-06-30 10:00</td>
+                        <td>ポイント送信</td>
+                    </tr>
+                    <tr>
+                        <td>2024-06-29 15:30</td>
+                        <td>プロフィール更新</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ポイント管理システム</p>
+    </footer>
+</body>
+</html>
